@@ -709,17 +709,7 @@ public class Splash extends Activity {
       mState = InError;
     }
 
-    boolean arch_ok = false;
-    String[] abis = Build.SUPPORTED_ABIS;
-    for (int i=0; i<abis.length; ++i)
-    {
-      Log.i(TAG, "ABI: " + abis[i]);
-      if (abis[i].equalsIgnoreCase(pkg_arch))
-      {
-        arch_ok = true;
-        //break;
-      }
-    }
+    boolean arch_ok = true;
 
     if (!arch_ok)
     {

@@ -1,5 +1,5 @@
-APP_NAME SPMC17
-APP_PACKAGE com.semperpax.spmc17
+APP_NAME Media Center
+APP_PACKAGE com.xbmc.kodi
 COMPANY_NAME Semperpax
 WEBSITE http://spmc.semperpax.com/
 VERSION_MAJOR 17
